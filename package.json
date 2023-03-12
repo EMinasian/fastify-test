@@ -1,0 +1,27 @@
+{
+  "name": "fastify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMinasian/fastify-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMinasian/fastify-test/issues"
+  },
+  "homepage": "https://github.com/EMinasian/fastify-test#readme",
+  "dependencies": {
+    "fastify": "^4.14.1",
+    "fastify-swagger": "^5.2.0",
+    "uuid": "^9.0.0"
+  }
+}
